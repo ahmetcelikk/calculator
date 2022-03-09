@@ -1,0 +1,22 @@
+table {
+  background-color: aquamarine;
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  background-color: burlywood;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.btn.btn--first {
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 20px;
+  background-color: aliceblue;
+  font-size: 25px;
+}
+.btn:hover {
+  background-color: brown;
+}
